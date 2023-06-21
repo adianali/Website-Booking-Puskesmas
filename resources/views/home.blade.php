@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.main')
 @section('css', '/css/style.css')
 @section('content')
       <!-- ======= Hero Section ======= -->
@@ -6,6 +6,10 @@
           <div class="container">
             <h1>Selamat Datang</h1>
             <h2>Ini Adalah Website Resmi Puskesmas Sehat</h2>
+            <!-- ======= Button Lihat antrian ======= -->
+          <div class="buttonantrian">
+            <a href="" class="btn btn-primary">Lihat Antrean</a>
+      </div>
           </div>
         </section>
       <!-- End Hero -->
