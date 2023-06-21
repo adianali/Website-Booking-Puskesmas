@@ -1,5 +1,5 @@
 @extends('layouts.app')
-
+@section('css', '/css/style.css')
 @section('content')
       <!-- ======= Hero Section ======= -->
         <section id="hero" class="d-flex align-items-center">
@@ -133,5 +133,4 @@
         <!-- End Contact Section -->
 
       </main>
-      <!-- End main -->
 @endsection
