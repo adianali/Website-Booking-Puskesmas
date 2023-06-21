@@ -1,0 +1,136 @@
+/* antrean.css */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1,
+  h2,
+  h3,
+  p {
+    margin: 0;
+  }
+  
+  /* Header Section */
+  header {
+    background-color: #1c3faa;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+  }
+  
+  h1 {
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  /* Queue Section */
+  #queue {
+    background-color: #f8f8f8;
+    padding: 40px 0;
+  }
+  
+  .queue-number,
+  .queue-status {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .queue-number h3,
+  .queue-status h3 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  /* Categories Section */
+  #categories {
+    padding: 40px 0;
+  }
+  
+  .category {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .btn-category {
+    background-color: #1c3faa;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-category:hover {
+    background-color: #1c3faa;
+  }
+  
+  /* Appointment Section */
+  #appointment {
+    padding: 40px 0;
+  }
+  
+  .appointment-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .appointment-item {
+    background-color: #f8f8f8;
+    border-radius: 4px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    flex-basis: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .appointment-number h3,
+  .appointment-status h3 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .appointment-number p,
+  .appointment-status p {
+    font-size: 16px;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+  
+    h1 {
+      font-size: 24px;
+    }
+  
+    h2 {
+      font-size: 20px;
+    }
+  
+    .appointment-item {
+      flex-basis: 100%;
+    }
+  }
+  

@@ -8,7 +8,7 @@
             <h2>Ini Adalah Website Resmi Puskesmas Sehat</h2>
             <!-- ======= Button Lihat antrian ======= -->
           <div class="buttonantrian">
-            <a href="" class="btn btn-primary">Lihat Antrean</a>
+            <a href="/antrean" class="btn btn-primary">Lihat Antrean</a>
       </div>
           </div>
         </section>
