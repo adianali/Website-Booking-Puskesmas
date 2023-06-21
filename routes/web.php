@@ -21,6 +21,10 @@ Route::get('/antrean', function () {
     return view('antrean');
 });
 
+Route::get('/ambilantrean', function () {
+    return view('ambilantrean');
+});
+
 
 Auth::routes();
 

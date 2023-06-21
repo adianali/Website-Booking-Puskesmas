@@ -56,6 +56,9 @@
         </div>
       </div>
     </section>
+    <div class="queue-button">
+          <a href="/ambilantrean" class="btn-ambil-antrian">Ambil Antrian</a>
+        </div>
   </main>
 
 <script>
