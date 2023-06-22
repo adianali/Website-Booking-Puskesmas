@@ -10,7 +10,6 @@ body {
   .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px;
   }
   
   h1,
@@ -27,10 +26,18 @@ body {
     text-align: center;
     padding: 40px 0;
   }
+
+  .header-antrean{
+    margin-bottom: 50px;
+  }
   
-  h1 {
+ h1 {
     font-size: 32px;
     font-weight: bold;
+  }
+
+  .login-ambil{
+    margin-left: 120px;
   }
   
   /* Queue Section */
