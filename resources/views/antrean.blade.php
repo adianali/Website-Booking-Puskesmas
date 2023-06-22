@@ -1,10 +1,21 @@
 @extends('layouts.main')
 @section('css', '/css/antrean.css')
 @section('content')
-  <header>
+  <header class="header-antrean">
     <h1>Antrean Puskesmas</h1>
   </header>
   <main>
+
+       @auth
+        <!-- Button Modal -->
+          <a href="/ambilantrean" class="btn btn-primary my-3 login-ambil">
+             <i class="bi bi-file-plus me-1"></i>Ambil Antrian
+          </a>
+        @else
+          <a href="/login" type="button" class="btn btn-primary my-3 login-ambil">
+            <i class="bi bi-file-plus me-1"></i>Ambil Antrian
+          </a>
+        @endauth
     <section id="queue">
       <div class="container">
         <h2>Antrian Sekarang</h2>
@@ -25,7 +36,6 @@
           <button class="btn-category" onclick="showQueue('Poli Umum')">Poli Umum</button>
           <button class="btn-category" onclick="showQueue('Poli Gigi')">Poli Gigi</button>
           <button class="btn-category" onclick="showQueue('Poli THT')">Poli THT</button>
-          <button class="btn-category" onclick="showQueue('Poli Mata')">Poli Mata</button>
         </div>
       </div>
     </section>
@@ -56,9 +66,6 @@
         </div>
       </div>
     </section>
-    <div class="queue-button">
-          <a href="/ambilantrean" class="btn-ambil-antrian">Ambil Antrian</a>
-        </div>
   </main>
 
 <script>

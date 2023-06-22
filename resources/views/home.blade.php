@@ -7,9 +7,9 @@
             <h1>Selamat Datang</h1>
             <h2>Ini Adalah Website Resmi Puskesmas Sehat</h2>
             <!-- ======= Button Lihat antrian ======= -->
-          <div class="buttonantrian">
-            <a href="/antrean" class="btn btn-primary">Lihat Antrean</a>
-      </div>
+              <div class="buttonantrian">
+                <a href="/antrean" class="btn btn-primary lihat-antrean">Lihat Antrean</a>
+              </div>
           </div>
         </section>
       <!-- End Hero -->
@@ -20,7 +20,7 @@
 
                 <div class="row">
                   <div class="col-lg-4 d-flex align-items-stretch">
-                    <div class="content">
+                    <div class="content-why-us">
                       <h3>Sistem Antrian Online</h3>
                       <p>
                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid iure, recusandae qui autem quam cupiditate impedit corporis nesciunt earum molestiae delectus voluptas, nostrum ut iste cumque doloribus nam alias cum. 
