@@ -26,6 +26,27 @@ Route::get('/ambilantrean', function () {
 });
 
 
+
+
+
+/////////////////////////////////////Admin/////////////////////////////////////////////////
+Route::get('/admin', function () {
+    return view('admin.dashboard');
+});
+Route::get('/poliumum', function () {
+    return view('admin.poliumum');
+});
+Route::get('/poligigi', function () {
+    return view('admin.poligigi');
+});
+Route::get('/politht', function () {
+    return view('admin.politht');
+});
+///////////////////////////////////////// /////////////////////////////////////////////////
+
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+
