@@ -2,9 +2,6 @@
 @extends('layouts.main')
 @section('css', '/css/ambilantrean.css')
 @section('content')
-  <header>
-    <h1>Ambil Antrean</h1>
-  </header>
   <main>
     <section id="ambil-antrean">
       <div class="container">
@@ -24,6 +21,14 @@
             <select id="jenis_kelamin" name="jenis_kelamin" required>
               <option value="laki-laki">Laki-laki</option>
               <option value="perempuan">Perempuan</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="jenis_kelamin">Poli:</label>
+            <select id="jenis_kelamin" name="jenis_kelamin" required>
+              <option value="Poli Umum">Poli Umum</option>
+              <option value="Poli THT">Poli THT</option>
+              <option value="Poli Gigi">Poli Gigi</option>
             </select>
           </div>
           <div class="form-group">
